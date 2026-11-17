@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "id.plehooo.dri"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "id.plehooo.dri"

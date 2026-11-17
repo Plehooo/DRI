@@ -121,7 +121,7 @@ class MainActivity : Activity() {
             setHintTextColor(Color.rgb(111, 130, 151))
             setTextColor(Color.WHITE)
             textSize = 13f
-            singleLine = true
+            setSingleLine(true)
             inputType = android.text.InputType.TYPE_CLASS_TEXT or android.text.InputType.TYPE_TEXT_VARIATION_URI
             setSelectAllOnFocus(false)
             setPadding(dp(12), 0, dp(12), 0)
